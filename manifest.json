@@ -5,6 +5,7 @@
     "description": "Create and manage a custom YouTube playlist.",
     "permissions": ["storage"],
     "host_permissions": ["https://www.youtube.com/*"],
+
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
