@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const playlistElement = document.getElementById("playlist");
 
     function updatePlaylist() {
+        
         chrome.storage.local.get(["playlist"], function(result) {
             playlistElement.innerHTML = "";
             (result.playlist || []).forEach(video => {
